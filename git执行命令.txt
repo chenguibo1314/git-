@@ -8,6 +8,8 @@ git push -u origin master
 
 git pull origin master
 
+git rm 文件名        ---删除本地代码
+
 git status           ---查看修改状态
 
 git stash            ---回滚本地未提交代码
