@@ -1,25 +1,25 @@
 git init
 
-git add ÎÄ¼þÃû
+git add æ–‡ä»¶å
 
-git commit -m "ÃèÊö"
+git commit -m "æè¿°"
 
 git push -u origin master
 
 git pull origin master
 
-git status           ---²é¿´ÐÞ¸Ä×´Ì¬
+git status           ---æŸ¥çœ‹ä¿®æ”¹çŠ¶æ€
 
-git stash            ---»Ø¹ö±¾µØÎ´Ìá½»´úÂë
+git stash            ---å›žæ»šæœ¬åœ°æœªæäº¤ä»£ç 
 
-git remote add origin git@git.chenguibo@XXXXXX  --Á¬½ÓÔ¶³Ì´úÂë
+git remote add origin git@git.chenguibo@XXXXXX  --è¿žæŽ¥è¿œç¨‹ä»£ç 
 
-git clone git@git.fcbox.com:IS/workingDocument.git   ---¿ËÂ¡Ô¶³Ì´úÂë
-
-
+git clone git@git.fcbox.com:IS/workingDocument.git   ---å…‹éš†è¿œç¨‹ä»£ç 
 
 
-git config --global credential.helper store	--³¤ÆÚ¼Ç×¡ÃÜÂë
+
+
+git config --global credential.helper store	--é•¿æœŸè®°ä½å¯†ç 
 
 
 git config --global user.name 001427
@@ -35,3 +35,11 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/chenguibo1314/Interview.git
 git push -u origin master
+
+
+
+>>> $ git rm tencent
+>>> fatal: not removing 'tencent' recursively without -r
+è§£å†³ï¼šç”¨git rm --
+cachedæ¥åˆ é™¤æ–‡ä»¶å¤¹çš„è¿½è¸ªçŠ¶æ€æ˜¯å‡ºçŽ°
+>>> git rm -r --cached tencent
