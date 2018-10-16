@@ -1,6 +1,6 @@
-´ò¿ªgit Bash Here
+æ‰“å¼€git Bash Here
 
-1¡¢cd ~/.ssh
+1Â¡Â¢cd ~/.ssh
 
 
-2¡¢ssh-keygen -t rsa -C "chenguibo@fcbox.com" -b 4096
+2Â¡Â¢ssh-keygen -t rsa -C "chenguibo@fcbox.com" -b 4096
